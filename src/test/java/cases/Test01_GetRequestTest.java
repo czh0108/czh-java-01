@@ -10,6 +10,6 @@ public class Test01_GetRequestTest {
 
     @Test
     public void testMain() throws IOException {
-        Function.httpGet("");
+        Function.httpGet("http://localhost:12306/getweather?city=hangzhou");
     }
 }
